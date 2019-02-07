@@ -1,0 +1,12 @@
+[sequence_data]
+data_dir=../../data
+map=08.p
+dataname = 08gps_noise8.0_0
+odometry=%(data_dir)s/odometry/gps/08-gps_noise8.0_sample0.obs
+gps_data=%(data_dir)s/map_trajectories/08.txt
+dt=0.1
+data_skip=10
+dynamics_params = params/gps_noise8.0_dynamics_params.p
+data_source = GPS
+sequence_id = 08
+snr = 8.0

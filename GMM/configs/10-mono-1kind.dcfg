@@ -1,0 +1,12 @@
+[sequence_data]
+data_dir=../../data
+map=10.p
+dataname=10mono
+odometry=%(data_dir)s/odometry/libviso2_mono/10.txt
+gps_data=%(data_dir)s/map_trajectories/10.txt
+dt=0.1
+data_skip=10
+dynamics_params = params/mono_1kind_dynamics_params.p
+dynamics = state2rigid_1kind
+data_source = Monocular
+sequence_id = 10

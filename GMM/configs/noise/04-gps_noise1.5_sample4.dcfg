@@ -1,0 +1,12 @@
+[sequence_data]
+data_dir=../../data
+map=04.p
+dataname = 04gps_noise1.5_4
+odometry=%(data_dir)s/odometry/gps/04-gps_noise1.5_sample4.obs
+gps_data=%(data_dir)s/map_trajectories/04.txt
+dt=0.1
+data_skip=10
+dynamics_params = params/gps_noise1.5_dynamics_params.p
+data_source = GPS
+sequence_id = 04
+snr = 1.5

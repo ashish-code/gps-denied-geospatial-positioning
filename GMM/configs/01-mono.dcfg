@@ -1,0 +1,11 @@
+[sequence_data]
+data_dir=../../data
+map=01.p
+dataname=01mono
+odometry=%(data_dir)s/odometry/libviso2_mono/01.txt
+gps_data=%(data_dir)s/map_trajectories/01.txt
+dt=0.1
+data_skip=10
+dynamics_params = params/mono_dynamics_params.p
+data_source = Monocular
+sequence_id = 01

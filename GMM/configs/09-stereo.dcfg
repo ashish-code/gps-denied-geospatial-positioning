@@ -1,0 +1,11 @@
+[sequence_data]
+data_dir=../../data
+map=09.p
+dataname=09stereo
+odometry=%(data_dir)s/odometry/libviso2_stereo/09.txt
+gps_data=%(data_dir)s/map_trajectories/09.txt
+dt=0.1
+data_skip=10
+dynamics_params = params/stereo_dynamics_params.p
+data_source = Stereo
+sequence_id = 09
